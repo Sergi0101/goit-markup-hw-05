@@ -1,6 +1,5 @@
 /*#region base */
 
-/* Base */
 /*#region */
 body {
   font-family: "Roboto", sans-serif;
@@ -536,7 +535,10 @@ h3 {
   fill: #f4f4fd;
 }
 /*#endregion footer */
+
 /*#endregion */
+
+/*#region modal-window */
 
 .bacdrop {
   width: 100%;
@@ -556,12 +558,45 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 72px 24px 24px 24px;
 }
 .modal-close {
+  position: absolute;
   border-radius: 100%;
   fill: #e7e9fc;
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
   width: 24px;
   height: 24px;
+  top: 24px;
+  right: 24px;
 }
+
+.modal-title {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.modal-label {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0, 04em;
+}
+.modal-input {
+  width: 100%;
+  margin-bottom: 8px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  padding-left: 40px;
+}
+.icon-modal {
+  fill: #2e2f42;
+}
+/*#endregion modal-window*/
