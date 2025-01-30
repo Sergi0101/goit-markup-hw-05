@@ -1,4 +1,4 @@
-/* Base */
+/*#region base */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -57,8 +57,10 @@ h3 {
   padding: 0px 15px;
   box-sizing: border-box;
 }
+/*#endregion base */
 
-/* Header */
+/*#region header */
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -166,7 +168,9 @@ h3 {
   font-style: normal;
   letter-spacing: 0.02em;
 }
+/* #endregion */
 
+/*#region hero */
 /*----------Hero section ----------*/
 
 .hero-section {
@@ -225,12 +229,9 @@ h3 {
   background-color: #404bbf;
   letter-spacing: 0.04em;
 }
-/* -
--
--
--
- */
-/* Advantages */
+/*#endregion hero */
+
+/*#region advantages */
 .adventages-section {
   padding: 120px 0;
 }
@@ -281,14 +282,10 @@ h3 {
 .adventages-description {
   line-height: 1.5;
 }
-/* -
--
--
--
+/*#endregion advantages */
 
-*/
+/*#region our team */
 
-/* our team */
 .team-section {
   background-color: #f4f4fd;
   text-transform: capitalize;
@@ -451,12 +448,11 @@ h3 {
 .portfolio-list {
   background-color: #fff;
 }
-/* 
--
--
--
--
-/* Footer */
+
+/*#endregion our team */
+
+/*#region footer */
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -537,3 +533,4 @@ h3 {
   height: 24px;
   fill: #f4f4fd;
 }
+/*#endregion footer */
