@@ -668,14 +668,14 @@ h3 {
 .modal-close:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 .icon-botton:hover,
 .icon-botton:focus {
   fill: #ffffff;
 }
 
-.modal-close:hover .icon-botton {
+.modal-close:hover .icon-botton,
+.modal-close:focus .icon-botton {
   fill: #ffffff;
 }
 
