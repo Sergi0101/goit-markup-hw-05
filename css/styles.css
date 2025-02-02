@@ -552,6 +552,10 @@ h3 {
   align-items: center;
   gap: 24px;
 }
+.subscribe-lbl {
+  width: 264px;
+  height: 40px;
+}
 
 .footer-email::placeholder {
   padding-top: 8px;
@@ -567,6 +571,9 @@ h3 {
   background-color: transparent;
   margin-right: 24px;
   padding: 0 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   color: #ffffff;
 }
 

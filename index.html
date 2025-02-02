@@ -508,7 +508,7 @@
         <div class="subscribe">
           <p class="subscribe-txt">Subscribe</p>
           <form class="subscribe-form">
-            <label for="ftr-email" class="subscribe-lbl">
+            <label id="ftr-lbl" class="subscribe-lbl">
               <input
                 type="email"
                 name="ftr-email"
@@ -516,20 +516,20 @@
                 placeholder="E-mail"
                 class="footer-email"
               />
-              <button type="submit" class="ftr-button">
-                Subscribe
-                <svg class="subscribe-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
             </label>
+            <button type="submit" id="ftr-button-subscribe" class="ftr-button">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop is-open">
+    <div class="backdrop is-ope">
       <div class="modal">
         <button class="modal-close" type="button">
           <svg class="icon-botton" width="8" height="8">
