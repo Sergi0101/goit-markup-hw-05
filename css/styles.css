@@ -747,8 +747,7 @@ h3 {
   border-radius: 4px;
   width: 360px;
   height: 120px;
-  padding-top: 8px;
-  padding-left: 16px;
+  padding: 8px 16px;
   outline: transparent;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
@@ -756,6 +755,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
 }
 .modal-textarea:hover,
@@ -793,11 +793,11 @@ h3 {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-flex;
-  fill: transparent;
-  background-color: transparent;
-  display: flex;
   justify-content: center;
   align-items: center;
+  fill: transparent;
+  background-color: transparent;
+
   margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
