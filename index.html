@@ -529,7 +529,7 @@
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop is-ope">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close" type="button">
           <svg class="icon-botton" width="8" height="8">
@@ -539,7 +539,9 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-field">
-            <label id="user-name-lbl" class="modal-label">Name</label>
+            <label for="user-name" id="user-name-lbl" class="modal-label"
+              >Name</label
+            >
             <div class="input-wrap">
               <input
                 type="text"
@@ -584,12 +586,12 @@
           </div>
 
           <div class="modal-field-comment">
-            <label for="user-coments" class="modal-label-comment"
+            <label for="user-comments" class="modal-label-comment"
               >Comment</label
             >
             <textarea
-              name="user-coments"
-              id="user-coments"
+              name="user-comments"
+              id="user-comments"
               class="modal-textarea"
               placeholder="Text input"
             ></textarea>
@@ -603,7 +605,7 @@
               class="policy visually-hidden"
               value="true"
             />
-            <label id="policy" class="text-policy"
+            <label id="policy" for="user-privacy" class="text-policy"
               ><span class="policy-checkbox-wrap">
                 <svg class="policy-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>

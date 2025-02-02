@@ -578,7 +578,7 @@ h3 {
 }
 
 .ftr-button {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -591,6 +591,7 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .subscribe-icon {
   fill: #ffffff;
@@ -708,17 +709,18 @@ h3 {
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  border-color: rgba(46, 47, 66, 0.4);
   outline: transparent;
-  padding-left: 40px;
+  padding-left: 38px;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:hover,
 .modal-input:focus {
   border: 1px solid #4d5ae5;
 }
-.modal-input:hover + .icon-modal {
-  fill: #4d5ae5;
-}
+
 .icon-modal {
   fill: #2e2f42;
   position: absolute;
@@ -727,6 +729,9 @@ h3 {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-input:hover + .icon-modal {
+  fill: #4d5ae5;
+}
 .modal-field-comment {
   margin-bottom: 16px;
 }
@@ -734,7 +739,7 @@ h3 {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
-  letter-spacing: 0, 04em;
+  letter-spacing: 0.04em;
   color: #8e8f99;
 }
 .modal-textarea {
@@ -747,6 +752,11 @@ h3 {
   outline: transparent;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
 }
 .modal-textarea:hover,
 .modal-textarea:focus {
